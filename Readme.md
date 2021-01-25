@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/30/user/1613579).
-* Наставник: `Неизвестно`.
+* Студент: Никита Пивоваров(https://up.htmlacademy.ru/htmlcss/30/user/1613579).
+* Наставник: Валерий Крукович(htmlacademy.ru/profile/id303175)
 
 ---
 
