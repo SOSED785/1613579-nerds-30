@@ -4,12 +4,15 @@
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
   <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/icons/:cons.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
   <header>
     <nav>
       <a href="index.html">
-        <img src="img/index-logo.svg" width="150" height="100" alt="Логотип интернет магазина Nerds">
+      <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип интернет магазина Nerds"> 
       </a>
       <ul>
         <li><a href="blank.html">Студия</a></li>
@@ -17,7 +20,8 @@
         <li><a href="catalog.html">Магазин</a></li>
         <li><a href="blank.html">Контакты</a></li>
       </ul>
-      <a href="blank.html">Корзина</a>
+      <a href="blank.html">
+      <img src="img/cart-icon.png" width="15" height="15" alt="Корзина"></a>
     </nav>
   </header>
   <main>
@@ -30,95 +34,80 @@
       </fieldset>
       <fieldset>
           <legend>Сетка</legend>
-          <ul>
-            <li>
-              <input type="checkbox" name="Адаптированная"
-            id="filter-Адаптированная-checked">
-              <label for="filter-Адаптированная">Адаптивные</label>
-            </li>
-            <li>
-              <input type="checkbox" name="Фиксированная"
-            id="filter-Фиксированная">
-              <label for="filter-Фиксированная">Фиксированная</label>
-            </li>
-            <li>
-              <input type="checkbox" name="Резиновая"
-            id="filter-Резиновая">
-              <label for="filter-Резиновая">Резиновая</label> 
-            </li>
-          </ul>
+           <ul>
+             <li>
+             <label><input type="radio" name="area"
+              checked value="Адаптивная">Адаптивная</label>
+              </li>
+              <li>
+             <label><input type="radio" name="area"
+              value="Фиксированная">Фиксированная</label>
+              </li>
+              <li>
+              <label><input type="radio" name="area"
+              value="Резиновая">Резиновая</label>
+              </li>
+           </ul> 
       </fieldset>
       <fieldset>
         <legend>Особенности</legend>
         <ul>
           <li>
-            <input type="checkbox" name="Слайдер"
-            id="filter-Слайдер-checked">
-            <label for="filter-Слайдер">Слайдер</label>
+            <label><input type="checkbox" name="area"
+             checked value="Слайдер">Слайдер</label>
           </li>
           <li>
-            <input type="checkbox" name="Блок преимуществ"
-            id="filter-Блок преимуществ">
-            <label for="filter-Блок преимуществ">Блок преимуществ</label>
+            <label><input type="checkbox" name="area"
+            value="Блок преимуществ">Блок преимуществ</label>
           </li>
           <li>
-            <input type="checkbox" name="Новости"
-            id="filter-Новости-checked">
-            <label for="filter-Новости">Новости</label>
+            <label><input type="checkbox" name="area"
+            checked value="Новости">Новости</label>
           </li>
           <li>
-            <input type="checkbox" name="Галерея"
-            id="filter-Галерея">
-            <label for="filter-Галерея">Галерея</label>
+            <label><input type="checkbox" name="area"
+            value="Галерея">Галерея</label>
           </li>
           <li>
-            <input type="checkbox" name="Корзина"
-            id="filter-Корзина">
-            <label for="filter-Корзина">Корзина</label>
+            <label><input type="checkbox" name="area"
+            value="Корзина">Корзина</label>
           </li>
         </ul>
       </fieldset>
       <button type="submit">Показать</button>
     </form>
+       <section>
        <h2>Сортировать</h2>
-       <p>По цене</p>
-       <a href=""></a>
-       <p>По типу</p>
-       <a href=""></a>
-       <p>По названию</p>
-       <a href=""></a>
+       <a href="">по цене</a>
+       <a href="">по типу</a>
+       <a href="">по названию</a>
+       </section>
      <h2>Название сайтов</h2>
        <ul>
          <li>
-           <a href="#">Sedona</a>
+           <a href="#">Sedona
+            <img src="img/maskgroup(10)(1).jng" width="358" height="528" alt="Главная страница сайта"></a>
            <p>Информационный сайт для туристов</p>
            <button type="button">9900руб</button>
          </li>
          <li>
-           <a href="#">Barbershop Borodinski</a>
+           <a href="#">Barbershop Borodinski
+            <img src="img/maskgroup(8)(1).jpg" width="358" height="578" alt="Главная страница сайта"></a>
          </li>
          <li>
-           <a href="#">Pink</a>
+           <a href="#">Pink
+           <img src="img/maskgroup(9)(1).jng" width="358" height="578" alt="Главная страница Pink"></a>
          </li>
            <li>
-             <a href="#">Mishka</a>
+             <a href="#">Mishka
+              <img src="img/maskgroup(6)(1).jpg" width="358" height="578" alt="Главная страница Mishka"></a>
            </li>
        </ul>
      <h2>Страницы</h2>
-       <ul>
-         <li>
            <a>1</a>
-         </li>
-         <li>
            <a href="#">2</a>
-         </li>
-         <li>
            <a href="#">3</a>
-         </li>
-         <li>
            <a href="#">Следующая</a>
-         </li>
-       </ul>
   </main>
   <footer>
     <h2>Как нас найти</h2>
@@ -128,20 +117,33 @@
     <a href="tel:+7(812)2757575">+7-812-275-75-75</a>
     <button type="button">Напишите нам</button>
     <h2>Давайте дружить это выгодно</h2>
-    <ul>
-      <li><a href="#"> Вконтакте</a></li>
-      <li><a href="#"> Инстаграмм</a></li>
-      <li><a href="#"> Фейсбук</a></li>
-    </ul>
+    <a href="#"> Вконтакте
+      <img src="img/shape2copy3.svg" width="81" height="81" alt="">
+      <img src="img/vk-icon.png" width="26" height="15" alt=""></a>
+    <a href="#"> Инстаграмм
+      <img src="img/shape2copy4.svg" width="81" height="81" alt="">
+      <img src="img/fb-icon.png" width="12" height="22" alt=""></a>
+    <a href="#"> Фейсбук
+      <img src="img/shape2copy5.svg" width="81" height="81" alt="">
+      <img src="img/insta-icon.png" width="21" height="21" alt=""></a>
     <p>Скидка 10% для друзей из социальных сетей</p>
   </footer>
-  <h3>Связь с нами</h3>>
-    <p>Nerds Disign Studio</p>
-    <a href="http://echo.htmlacademy.ru/">
-      <address>191186,Санкт Петербург,ул.Б.Конюшенная,д.19/8
-      </address>
-      <a href="tel:+7(812)2757575">+7-812-275-75-75</a>
-     <button type="button">Написать нам</button> 
+  <section>
+    <h2>Напишите нам</h2>
+    <fieldset>
+      <legend>Ваше имя</legend>
+      <label><input type="text" value="Имя Фамилия"></label>
+    </fieldset>
+    <fieldset>
+      <legend>Ваш email</legend>
+     <label><input type="text" value="email@example.com"></label> 
+    </fieldset>
+    <fieldset>
+      <legend>Текст письма</legend>
+      <label><input type="text" value="В свободной форме"></label>
+    </fieldset>
+    <button type="button">Отправить</button>
+  </section>
 </body>
 </html>
   
