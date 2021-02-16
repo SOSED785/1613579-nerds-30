@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
@@ -8,103 +8,123 @@
   <link rel="apple-touch-icon" href="img/icons/180.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
-<body>
-  <header>
-    <nav>
-      <a>
-        <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип интернет магазина Nerds">
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo.png" width="160" height="65" alt="Логотип интернет магазина Nerds">
       </a>
-      <a href="blank.html">Студия</a>
-      <a href="blank.html">Клиент</a>
-      <a href="catalog.html">Магазин</a>
-      <a href="blank.html">Контакты</a>
-      <a href="blank.html">
-       <img src="img/cart-icon.png" width="15" height="15" alt="Корзина">
+      <ul class="site-navigation">
+       <li><a href="blank.html">Студия</a></li>
+       <li><a href="blank.html">Клиент</a></ul>
+       <li><a href="catalog.html">Магазин</a></li>
+       <li><a href="blank.html">Контакты</a></li>
+      <a class="blank.html" href="blank.html">
+       <img src="img/basket-icon.svg" width="15" height="15" alt="Корзина">
        </a>
     </nav>
   </header>
-  <main>
+  <main class="conteiner">
     <h1>Интернет магазин Nerds</h1>
-    <p>Долго,дорого,скурпулезно</p>
-    <p>Математически выверенный дизайн<br>
-      для вашего сайта или мобильного приложения</p>
-    <a href="blank.html">узнать больше
-      <img src="img/slider.png" width="1157" height="431" alt="Слайдер">
-    </a>
-    <section class="services">
-     <h2>Услуги</h2>
-     <ul>
-      <li>
-       <img src="img/illustration-1-1(1).jpg" width="300" height="146" alt="Реклама через вебсайт">
-        <h3>Вебсайт</h3>
-        <p>Мир никогда не будет прежним <br>
+     <ul class="information-list">
+       <li class="information-item">
+        <p>Долго,дорого,скурпулезно</p>
+        <p>Математически выверенный дизайн<br>
+          для вашего сайта или мобильного приложения</p>
+        <a class="button" href="blank.html">узнать больше
+         <img src="img/slideTelephone.jpg" width="1157" height="431" alt="Работа через телефоны"></a>
+       </li>
+       <li class="information-item">
+        <p>Любим математику как никто другой</p>
+        <p>Никакого креатива,только математические формулы для расчета идеальных пропорций</p>
+        <a class="button" href="blank.html">узнать больше
+         <img src="img/slideComputer.jpg" width="760" height="431" alt="Работа через компьютеры"></a>
+       </li>
+       <li class="information-item">
+         <p>Только ночь,только хардкор</p>
+         <p>Работаем днем,как все???Мы против этого.Ближе к полуночи работа только начинается.</p>
+         <a class="button" href="blank.html">узнать больше
+           <img src="img/slideTablet.jpg" width="760" height="431" alt="Работа через планшеты"></a>
+       </li>
+      </ul>
+     <section class="services">
+      <h2>Услуги</h2>
+      <ul class="services-list">
+       <li class="services-item">
+        <img src="img/web.jpg" width="300" height="146" alt="Реклама через вебсайт">
+         <h3>Вебсайт</h3>
+         <p>Мир никогда не будет прежним <br>
           после того как увидет ваш сайт!
-        </p>
-        <button type="button">Заказать</button>
-      </li>
-      <li>
-        <img src="img/illustration-2-1(1).jpg" width="300" height="146" alt="Реклама через приложения">
+         </p>
+         <button class="button" type="button">Заказать</button>
+       </li>
+       <li class="services-item">
+        <img src="img/application.jpg" width="300" height="146" alt="Реклама через приложения">
          <h3>Приложения</h3>
          <p>Покорите топ 10 приложений в<br>
           AppStore и Google Play
         </p>
-        <button type="button">Заказать</button></li>
-      <li>
-       <img src="img/illustration-3-1-(1).jpg" width="300" height="146" alt="Реклама через презентации">
+        <button class="button" type="button">Заказать</button></li>
+      <li class="services-item">
+       <img src="img/presentation.jpg" width="300" height="146" alt="Реклама через презентации">
         <h3>Презентации</h3>
         <p>Вы даже не подозреваете<br>
           насколько вы изумительны
         </p>
-        <button type="button">Заказать</button>
+        <button class="button" type="button">Заказать</button>
         </li>
      </ul>
     </section>
-    <h2>О нас</h2>
-    <p>Мы-маленькая,но гордая дизайн студия из Краснодара</p>
-    <p>Исповедуем принципы минимолизма и чистоты.Ставим математический расчет<br>
+     <h2>О нас</h2>
+     <p class="description">Мы-маленькая,но гордая дизайн студия из Краснодара</p>
+     <p class="description">Исповедуем принципы минимолизма и чистоты.Ставим математический расчет<br>
       превыше креатива.Работаем не поклодая рук,как роботы.</p>
-    <h3>Выполняем заказы на разработку:</h3>
-    <ul>
-      <li>Веб сайтов</li>
-      <li>Мобильных приложений</li>
-      <li>Слайтшоу и видео для корпоротивных презентаций</li>
-    </ul>
+     <h3>Выполняем заказы на разработку:</h3>
+     <div class="index-columns"></div> 
+      <ul class="development-list">
+       <li class="development-item">Веб сайтов</li>
+       <li class="development-item">Мобильных приложений</li>
+       <li class="development-item">Слайтшоу и видео для корпоротивных презентаций</li>
+      </ul>
     <strong>Nerds</strong>
-    <img src="img/nerds-illustration-1(1).jpg" width="360" height="208" alt="Интернет сайт Nerds">
+    <img src="img/nerds-illustration.jpg" width="360" height="208" alt="Интернет сайт Nerds">
     <p>с 2004 года любим точность во всем</p>
-    <ul>
-      <li>146% уровень самоотдаче</li>
-      <li>100% соблюдение сроков</li>
-      <li>50% минимальная предоплата</li>
-    </ul>
+     <ul class="indicators-list">
+      <li class="indicators-item">146% уровень самоотдаче</li>
+      <li class="indicators-item">100% соблюдение сроков</li>
+      <li class="indicators-item">50% минимальная предоплата</li>
+     </ul>
     <h2>Сайты партнеры</h2>
-       <a href="https://echo.htmlacademy.ru/">
-        <img src="img/group5(1).png" width="199" height="67" alt="HTMLAcademy"></a>
-       <a href="blank.html">
-        <img src="img/logo-2(1).png" width="209" height="90" alt="Барбершоп Бородинский"></a>
-       <a href="blank.html">
-        <img src="img/group12.png" width="185" height="52" alt="Pink"></a>
-       <a href="blank.html">
-        <img src="img/logo4.png" width="173" height="84" alt="Mishka"></a>
+       <a class="partners" href="https://echo.htmlacademy.ru/">
+        <img src="img/logohtml-academy.png" width="199" height="67" alt="HTMLAcademy"></a>
+       <a class="partners" href="blank.html">
+        <img src="img/logoBarbershop-borodinski.png" width="209" height="90" alt="Барбершоп Бородинский"></a>
+       <a class="partners" href="blank.html">
+        <img src="img/logoPink.png" width="185" height="52" alt="Pink"></a>
+       <a class="partners" href="blank.html">
+        <img src="img/logoMishka.png" width="173" height="84" alt="Mishka"></a>
   </main>
-  <footer>
-    <h2>Как нас найти</h2>
-    <p>NERDS DESIGN STUDIO </p>
-    <address>191186,Санкт Петербург,ул.Б.Конюшенная,д.19/8
-    </address>
-    <a href="tel:+7(812)2757575">+7-812-275-75-75</a>
-    <button type="button">Напишите нам</button>
-    <h2>Давайте дружить это выгодно</h2>
-      <a href="#"> Вконтакте
-        <img src="img/shape2copy3.svg" width="81" height="81" alt="">
-        <img src="img/vk-icon.png" width="26" height="15" alt=""></a>
-      <a href="#"> Инстаграмм
-        <img src="img/shape2copy4.svg" width="81" height="81" alt="">
-        <img src="img/fb-icon.png" width="12" height="22" alt=""></a>
-      <a href="#"> Фейсбук
-        <img src="img/shape2copy5.svg" width="81" height="81" alt="">
-        <img src="img/insta-icon.png" width="21" height="21" alt=""></a>
-    <p>Скидка 10% для друзей из социальных сетей</p>
+  <footer class="main-footer">
+    <section class="contacts">
+     <div class="container"></div>
+      <h2>Как нас найти</h2>
+      <p>NERDS DESIGN STUDIO</p>
+      <img src="img/map-markerNerds.png" width="231" height="190" alt="Место на карте">
+      <address>191186,Санкт Петербург,ул.Б.Конюшенная,д.19/8
+      </address>
+      <a class="footer-phone" href="tel:+7(812)2757575">+7-812-275-75-75</a>
+      <button type="button">Напишите нам</button>
+    </section>
+    <section class="footer-social">
+     <h2>Давайте дружить это выгодно</h2>
+      <a class="social-button" href="#"> 
+        <img src="img/vk-icon.svg" width="26" height="15" alt=""></a>
+      <a class="social-button" href="#"> 
+        <img src="img/fb-icon.svg" width="12" height="22" alt=""></a>
+      <a class="social-button" href="#"> 
+        <img src="img/insta-icon.svg" width="21" height="21" alt=""></a>
+     <p>Скидка 10% для друзей из социальных сетей</p>
+    </section>
   </footer>
   <section>
     <h2>Напишите нам</h2>
