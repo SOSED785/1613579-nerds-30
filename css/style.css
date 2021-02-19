@@ -1,0 +1,791 @@
+/*Fonts*/
+
+@font-face {
+  font-famaly:"roboto";
+  src:url("../fonts/roboto.woff2") format("woff2"),
+   url("../fonts/roboto.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-famaly:"robotobold";
+    src:url("../fonts/robotobold.woff2") format("woff2"),
+     url("../fonts/robotobold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-famaly:"robotomedium";
+    src:url("../fonts/robotomedium.woff2") format("woff2"),
+     url("../fonts/robotomedium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /*Variables*/
+  :root {
+    --basic-black:#000000;
+    --basic-black:#070707;
+    --basic-black:#030303;
+    --basic-grey:#eeeeeedc;
+    --basic-grey:#dfdfdf;
+    --basic-grey:#d5d5d5;
+    --basic-white:#ffffff;
+    --basic-red:#fb565a;
+    --basic-red:#e74246;
+    --basic-red:#d7373b;
+    --basic-green:#00ca74;
+    --basic-green:#00bc6c;
+    --basic-green:#00aa62;
+    --basic-yellow:#efc849;
+    --basic-yellow:#eab534;
+    --basic-yellow:#e5a722;
+  }
+
+ 
+    img {
+      max-width: 100%;
+      height:auto;
+    }
+
+    /*Main-navigation*/
+    .main-navigation {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      color:#000000; 
+    }
+
+    /*Main-navigation-wrapper*/
+    .main-navigation-wrappe {
+      background-color: #d5d5d5;
+    } 
+
+    /*User navigation */
+    .site-navigation a,
+    .user-navigation a {
+      font-family: Roboto;
+      font-style:normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px; 
+      color:#000000;
+    }
+    
+    .site-navigation a:hover,
+    .user-navigation a:hover {
+      color: #fb565a;
+      background:#dfdfdf;
+    }
+    .site-navigation a:focus,
+    .user-navigation a:focus {
+      color:#d5d5d5;
+      background:#dfdfdf;
+    }
+
+    /*information*/
+    .list-information {
+      list-style:none;
+    }
+    
+    .list-information {
+      text-align: center;
+    }
+
+    .list-item gallery {
+      background-image: url("../img/slideTelephone.jpg");
+    }
+    
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 55px;
+      color:#000000;
+      background: #d5d5d5;
+    }
+
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#d5d5d5;
+    }
+
+    .list-item gallery {
+      background-image: url("../img/slideComputer.jpg");
+    }
+    
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 55px;
+      color:#000000;
+      background: #d5d5d5;
+    }
+
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#d5d5d5;
+    }
+
+    .list-item gallery {
+      background-image: url("../img/slideTablet.jpg");
+    }
+    
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 55px;
+      color:#000000;
+      background: #d5d5d5;
+    }
+
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#d5d5d5;
+    }
+
+    .list-item gallery {
+      background-image: url("../img/slideComputer.jpg");
+    }
+
+    .button p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color:#ffffff;
+      background:#fb565a;
+    }
+
+    .button:hover {
+      color:#ffffff;
+      background:#e74246;
+      border-radius: 3px;
+    }
+    .button:focus {
+      color:#d5d5d5;
+      background:#d7373b;
+      border-radius: 3px;
+    }
+
+    /*Services*/
+    .Services-list {
+      list-style:none;
+    }
+
+    .Services-list {
+      text-align: center;
+    }
+    
+    .Services-list {
+      background-image: url("../img/web.jpg");
+      background:#ffffff;
+    }
+
+    .list-item h3 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color:#070707;
+      background:#ffffff;
+    }
+
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .list-item button:hover {
+      color:#ffffff;
+      background:#e74246;
+      border-radius: 3px;
+    }
+    .list-item button:focus {
+      color:#d5d5d5;
+      background:#d7373b;
+      border-radius: 3px;
+    }
+
+    .Services-list {
+      background-image: url("../img/application.jpg");
+      background:#ffffff;
+    }
+
+    .list-item h3 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color:#070707;
+      background:#ffffff;
+    }
+
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#ffffff;
+    } 
+
+    .list-item button:hover {
+      color:#ffffff;
+      background:#00bc6c;
+    }
+    .list-item button:focus {
+      color:#d5d5d5;
+      background:#00aa62;
+    }
+
+    .Services-list {
+      background-image: url("../img/presentation.jpg");
+      background:#ffffff;
+    }
+
+    .list-item h3 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 30px;
+      color:#070707;
+      background:#ffffff;
+    }
+
+    .list-item p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .list-item button:hover {
+      color:#ffffff;
+      background:#eab534;
+    }
+
+    .list-item button:focus {
+      color:#d5d5d5;
+      background:#e5a722;
+    }
+
+    /*Description*/
+    .description {
+      list-style:none;
+    }
+
+    .description {
+      text-align: center;
+    }
+
+    .description p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 45px;
+      line-height: 45px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .description p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    /*Development*/
+    .development-list {
+      list-style:none;
+    }
+
+    .development-list{
+      text-align: center;
+    }
+
+
+    .development-list h3 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .development-idem {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    /*indicators*/
+    .indicators-list {
+      list-style:none;
+    }
+
+    .indicators-list {
+      text-align: center;
+    }
+
+    .indicators-idem {
+      background-image: url("../img/nerds-illustration.jpg");
+      background:#ffffff;
+    }
+
+    .indicators-idem p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 24px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .indicators-idem {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 64px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .indicators-idem {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 40px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .indicators-idem {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    /*Partners*/
+    .Partners-list a {
+      list-style:none;
+    }  
+
+    .Partners-list a {
+      text-align: center;
+    } 
+
+    .Partners-idem a:hover {
+      color:#000000;
+      background-color:#ffffff;
+      background-image: url("../img/logohtml-academy.png");
+    }
+
+    .Partners-idem a:focus {
+      color:#d5d5d5;
+      background-image: url("../img/logohtml-academy.png");
+      background:#ffffff;
+    }
+
+    .Partners-idem a:hover {
+      color:#000000;
+      background-color:#ffffff;
+      background-image: url("../img/logoBarbershop-borodinski.png");
+    }
+
+    .Partners-idem a:focus {
+      color:#d5d5d5;
+      background-image: url("../img/logoBarbershop-borodinski.png");
+      background:#ffffff;
+    }
+
+    .Partners-idem a:hover {
+      color:#000000;
+      background:#ffffff;
+      background-image: url("../img/logoPink.png");
+    }
+
+    .Partners-idem a:focus {
+      color:#d5d5d5;
+      background-image: url("../img/logoPink.png");
+      background:#ffffff;
+    } 
+
+    .Partners-idem a:hover {
+      color:#000000;
+      background:#ffffff;
+      background-image: url("../img/logoMishka.png");
+    }
+
+    .Partners-idem a:focus {
+      color:#d5d5d5;
+      background-image: url("../img/logoMishka.png");
+      background:#ffffff;
+    }
+
+    /*Main-footer*/
+    .rectangle {
+      position: absolute;
+      width: 319px;
+      height: 308px;
+      left: 140px;
+      top: 1897px;
+      background:#ffffff;
+    }
+
+    .title p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 30px;
+      color:#000000;
+      background:#ffffff;
+      text-align:center;
+    }
+
+    .contacts {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      text-align:center;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .button {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color:#ffffff;
+      background:#d7373b;
+      text-align:center;
+    }
+
+    /*Map*/
+    .map {
+      background-image: url("../img/map-markerNerds.png");
+    }
+
+    /*Footer-social*/
+    .Footer-socia-list {
+      list-style:none;
+    }
+
+    .Footer-socia-list {
+      text-align:center;
+    }
+
+    .Footer-socia-idem {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#d5d5d5;
+      border-radius:50%;
+      background-image: url("../img/vk-icon.ico");
+    }
+
+    .Footer-socia-idem {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#d5d5d5;
+      border-radius:50%;
+      background-image: url("../img/fb-icon.ico");
+    }
+
+    .Footer-socia-idem {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#d5d5d5;
+      border-radius:50%;
+      background-image: url("../img/insta-icon.ico");
+    }
+
+    
+    .Footer-socia-idem-hover {
+      width:81px;
+      height:81px;
+      color:#ffffff;
+      background:#e74246;
+      border-radius:50%;
+      background-image: url("../img/vk-icon.ico");
+    }
+
+    .Footer-socia-idem-hover{
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#e74246;
+      border-radius:50%;
+      background-image: url("../img/fb-icon.ico");
+    }
+
+    .Footersocia-idem-hover {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#e74246;
+      border-radius:50%;
+      background-image: url("../img/insta-icon.ico");
+    }
+
+    .Footer-socia-idem-focus {
+      width:81px;
+      height:81px;
+      color:#d5d5d5;
+      background:#d7373b;
+      border-radius:50%;
+      background-image: url("../img/vk-icon.ico");
+    }
+
+    .Footer-socia-idem-focus {
+      width:81px;
+      height:81px;
+      color:#d5d5d5;
+      background:#d7373b;
+      border-radius:50%;
+      background-image: url("../img/fb-icon.ico");
+    }
+
+    .Footer-socia-idem-focus {
+      width:81px;
+      height:81px;
+      color: #d5d5d5;
+      background:#d7373b;
+      border-radius:50%;
+      background-image: url("../img/insta-icon.ico");
+    }
+
+
+    /*Popur*/
+    .popur-list {
+    text-align:center;
+    }
+
+    .popur {
+    background:#ffffff;
+    box-shadow:slateblue 0px 20px 40px rgba(0, 0, 0, 0.4);
+    }  
+
+    .popur h2 {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 45px;
+      line-height: 53px;
+      color: #000000;
+      background: #ffffff;
+    }
+
+    /*form input*/
+    .form input {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 18px;
+      color:#000000;
+      background: #ffffff;
+    }
+
+    .form input [type="your name"],
+    .form input [type="your email"],
+    .form input [type="text letter"] {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color:#000000;
+      background: #ffffff;
+    }
+   
+    .form input [type="name surname"],
+    .form input [type="email"],
+    .form input [type="text"]{
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      border: 2px;
+      color:#d5d5d5;
+      background: #ffffff;
+    }
+    .form input:hover {
+      border-color:#d5d5d5;
+    }
+
+    .form input:focus {
+      border-color:#030303;
+    }
+
+    .form input:invalid {
+      border-color:#fb565a;
+      color:#fb565a;
+      background:#ffffff;
+    }
+
+    .button {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color:#ffffff;
+      background:#d7373b;
+      border-radius: 3px;;
+    }
+
+    
+
+
+      
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+      
+      
+      
+      
+      
+
+
+ 
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+      
+
+
+
+  
+
+
+      
+     
+
+      
+     
