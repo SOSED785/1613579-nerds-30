@@ -697,6 +697,742 @@
       border-radius: 3px;;
     }
 
+    .main-footer p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      align-items: center;
+      line-height: 36px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .main-footer p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      align-items: center;
+      color:#000000;
+      background:#ffffff;
+    }
+
+
+    /*Catalog*/
+    .main-container {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 55px;
+      align-items: center;
+      color: #000;
+      background:#d5d5d5;
+    }
+
+    .parameters-legend-cost {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 30px;
+      align-items: center;
+      color:#000;
+      background:#ffffff;
+    }
+
+      .parameters-legend-cost
+      rect {
+      position: absolute;
+      width: 260px;
+      height: 80px;
+      left: 140px;
+      top: 488px;
+      color: #d5d5d5;
+      background: #ffffff;
+      border-radius: 3px;
+    }
+
+    .parameters-legend-cost {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color:#000;
+      background: #ffffff;
+    }
+
+    .parameters-legend-cost
+    rect { 
+     position: absolute;
+     width: 80px;
+     height: 38px;
+     left: 172px;
+     top: 582px;
+     color: #030303;
+     background:#d5d5d5;
+     border-radius: 3px;
+    }
+
+    .parameters-legend-cost {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color:#000;
+      background:#d5d5d5;
+    }
+
+    .parameters-legend-cost
+    rect {
+      position: absolute;
+      width: 80px;
+      height: 38px;
+      left: 320px;
+      top: 582px;
+      color:#000;
+      background:#d5d5d5;
+      border-radius:3px;
+    }
+
+    .parameters-legend-grid {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 30px;
+      align-items: center;
+      color: #000;
+      background:#ffffff;
+    }
+
+    .grid ul{
+      list-style: none;
+    }
+
+    .grid-inpud-radio-on {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      left: 140px;
+      top: 717px;
+      opacity: 0.4;color:#000;
+      background: #ffffff;
+    }
+
+    .grid-inpud-radio-on-adaptive {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color:#000;
+      background:#ffffff;
+    }
+
+    .grid-inpud-radio-of {
+      position: absolute;
+      width: 25px;
+      height: 25px;
+      left: 140px;
+      top: 757px;
+      opacity: 0.4;
+      color:#000;
+      background:#ffffff;
+    }
+
+    .grid-inpud-radio-of-fixed {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #030303;
+      background: #ffffff;
+    }
+
+    .grid-inpud-radio-of {
+      osition: absolute;
+      width: 25px;
+      height: 25px;
+      left: 140px;
+      top: 757px;
+      opacity: 0.4;
+      color:#000;
+      background:#ffffff;
+    }
+
+    .grid-inpud-radio-of-rubber-band {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      color: #030303;
+      background:#ffffff;
+    }
+
+    .grid-inpud-radio-of,
+    .grid-inpud-radio-on:hover {
+      color: #030303;
+      background: #ffffff;
+    }
+
+    .grid-inpud-radio-of,
+    .grid-inpud-radio-on:focus {
+      color: #dfdfdf;
+      background: #ffffff;
+    }
+
+    .parameters-legend-features {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 30px;
+      align-items: center;
+      color: #030303;
+      background: #ffffff;
+    }
+
+      .features ul{
+        list-style: none;
+      }
+
+      .features-input-checkbox-on {
+        position: absolute;
+        width: 25px;
+        height: 23px;
+        left: 140px;
+        top: 909px;
+        opacity: 0.4;
+        color: #030303;
+        background: #ffffff;
+      }
+
+      .features-input-checkbox-on-slider,
+      .features-input-checkbox-on-news {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #030303;
+        background: #ffffff;
+      }
+
+      
+      .features-input-checkbox-off {
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        left: 140px;
+        top: 949px;
+        opacity: 0.4;
+        color: #030303;
+        background: #ffffff;
+      }
+
+      .features-input-checkbox-on-the-array-of-benefits,
+      .features-input-checkbox-on-gallery,
+      .features-input-checkbox-on-basket {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color:#000;
+        background:#ffffff;
+      }
+
+      .features-input-checkbox-on-slider,
+      .features-input-checkbox-on-news,
+      .features-input-checkbox-off,
+      .features-input-checkbox-on-the-array-of-benefits,
+      .features-input-checkbox-on-gallery,
+      .features-input-checkbox-on-baske:hover {
+        color: #d5d5d5;
+        background: #ffffff;
+      }
+
+      .features-input-checkbox-off,
+      .features-input-checkbox-on-slider,
+      .features-input-checkbox-on-news
+      .features-input-checkbox-on-the-array-of-benefits,
+      .features-input-checkbox-on-gallery,
+      .features-input-checkbox-on-baske:focus {
+        color: #000; 
+        background: #ffffff;
+      }
+
+      .button {
+        position: absolute;
+        width: 260px;
+        height: 50px;
+        left: 140px;
+        top: 1140px;
+        background:#ffffff;
+        border-radius: 3px;
+        color:#d5d5d5;
+      }
+
+      .button {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color:#000;
+        background:#d5d5d5;
+        align-items: center;
+      }
+
+      .main-container p {   
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        align-items: center;
+        line-height: 30px; 
+        color:#000;
+        background: #ffffff;
+      }
+
+      .sort-a-by-price {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color:#000 ;
+        background: #ffffff;
+        align-items: center;
+      }
+
+      .sort-a-by-type,
+      .sort-a-by-name {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        color:#d5d5d5;
+        background: #ffffff;
+        align-items: center;
+      }
+
+      .sort-a-by-type,
+      .sort-a-by-name,
+      .sort-a-by-price:hover {
+        color: #d5d5d5;
+        background: #ffffff;
+      }
+
+      .sort-a-by-type,
+      .sort-a-by-name,
+      .sort-a-by-price:focus {
+        color: #030303;
+        background: #ffffff;
+      }
+
+      .site { 
+        background: #FFFFFF;
+        box-shadow: 0px 6px 15px rgba(0, 1, 1, 0.25);
+        border-radius: 5px;
+        position: absolute;
+        width: 358px;
+        height: 578px;
+        left: 541px;
+        top: 528px;
+        background: #C4C4C4;
+        border-radius: 0px 0px 5px 5px;
+      }
+
+      .site-img  {
+        background-image: url(..//img/MaskGroupSedona.jpg);
+        background-image: url(..//img/MaskGroupPink.jpg);
+        background-image: url(..//img/MaskGroupBarbershop-Borodinski.jpg);
+        background-image: url(..//img/MaskGroupMishka.jpg);
+        background-image: url(..//img/MaskGroupA+.jpg);
+        background-image: url(..//img/MaskGroupKvast.jpg);
+      }
+      .site:hover {
+        color: #d7373b;
+        background: #ffffff;
+      }
+
+      .site:focus {
+        color:#C4C4C4;
+        background: #ffffff;
+      }
+
+        
+      /*Modal*/
+      .Modal-Rectangle {
+        position: absolute;
+        width: 360px;
+        height: 231px;
+        left: 540px;
+        top: 877px;
+        color: #000;
+        background:#ffffff;
+      }
+
+      .Modal-Rectangle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight:700;
+        font-size: 18px;
+        line-height: 30px;
+        color:#000;
+        background:#C4C4C4;
+        align-items: center;
+      }
+
+      .Modal-Rectangle {
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 18px;
+       align-items: center;
+       color:#000;
+       background: #C4C4C4;
+      }
+
+      .Modal-button {
+        border-radius: 3px;
+        background: #d7373b;
+      }
+
+      .Modal-button {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color:#dfdfdf;
+        background:#fb565a;
+        align-items: center;
+      }
+
+      .Modal-button:hover {
+        color:#DBDBDB;
+        background:#e74246;
+      }
+
+      .Modal-button:focus {
+        color: #dfdfdf;
+        background: #d7373b;
+      }
+
+      /*Pages*/
+      .Pages {
+        background: #FFFFFF;
+        border: 3px solid #DBDBDB;
+        box-sizing: border-box;
+        border-radius: 3px;
+      }
+
+      .Pages-1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        align-items: center;
+        color:#000;
+        background:#ffffff;
+      }
+
+      .Pages-2 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        align-items: center;
+        color:#000;
+        background:#C4C4C4;
+      }
+
+      .Pages-3 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        align-items: center;
+        color:#000;
+        background:#C4C4C4;
+      }
+
+      .Pages-1,
+      .Pages-2,
+      .Pages-3:hover {
+        color:#000;
+        background:#d5d5d5;
+      }
+
+      .Pages-1,
+      .Pages-2,
+      .Pages-3:focus {
+        color: #d5d5d5;
+        background: #d5d5d5;
+      }
+
+      .button-grey {
+        border-radius: 3px;
+        background: #ffffff;
+      }
+
+        .button-grey {
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 18px;
+          align-items: center;
+          color:#000;
+          background: #C4C4C4;
+        }
+
+          /*Main-footer*/
+    .rectangle {
+      position: absolute;
+      width: 319px;
+      height: 308px;
+      left: 140px;
+      top: 1897px;
+      background:#ffffff;
+    }
+
+    .title p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 30px;
+      color:#000000;
+      background:#ffffff;
+      text-align:center;
+    }
+
+    .contacts {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 18px;
+      text-align:center;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .button {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 18px;
+      color:#ffffff;
+      background:#d7373b;
+      text-align:center;
+    }
+
+    /*Map*/
+    .map {
+      background-image: url("../img/map-markerNerds.png");
+    }
+
+    /*Footer-social*/
+    .Footer-socia-list {
+      list-style:none;
+    }
+
+    .Footer-socia-list {
+      text-align:center;
+    }
+
+    .Footer-socia-idem {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#d5d5d5;
+      border-radius:50%;
+      background-image: url("../img/vk-icon.ico");
+    }
+
+    .Footer-socia-idem {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#d5d5d5;
+      border-radius:50%;
+      background-image: url("../img/fb-icon.ico");
+    }
+
+    .Footer-socia-idem {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#d5d5d5;
+      border-radius:50%;
+      background-image: url("../img/insta-icon.ico");
+    }
+
+    
+    .Footer-socia-idem-hover {
+      width:81px;
+      height:81px;
+      color:#ffffff;
+      background:#e74246;
+      border-radius:50%;
+      background-image: url("../img/vk-icon.ico");
+    }
+
+    .Footer-socia-idem-hover{
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#e74246;
+      border-radius:50%;
+      background-image: url("../img/fb-icon.ico");
+    }
+
+    .Footersocia-idem-hover {
+      width:81px;
+      height:81px;
+      color: #ffffff;
+      background:#e74246;
+      border-radius:50%;
+      background-image: url("../img/insta-icon.ico");
+    }
+
+    .Footer-socia-idem-focus {
+      width:81px;
+      height:81px;
+      color:#d5d5d5;
+      background:#d7373b;
+      border-radius:50%;
+      background-image: url("../img/vk-icon.ico");
+    }
+
+    .Footer-socia-idem-focus {
+      width:81px;
+      height:81px;
+      color:#d5d5d5;
+      background:#d7373b;
+      border-radius:50%;
+      background-image: url("../img/fb-icon.ico");
+    }
+
+    .Footer-socia-idem-focus {
+      width:81px;
+      height:81px;
+      color: #d5d5d5;
+      background:#d7373b;
+      border-radius:50%;
+      background-image: url("../img/insta-icon.ico");
+    }
+
+    .main-footer p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      align-items: center;
+      line-height: 36px;
+      color:#000000;
+      background:#ffffff;
+    }
+
+    .main-footer p {
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      align-items: center;
+      color:#000000;
+      background:#ffffff;
+    }
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+      
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
     
 
 
