@@ -1,8 +1,7 @@
 /*Fonts*/
-
 @font-face {
   font-famaly:"roboto";
-  src:url("../fonts/roboto.woff2") format("woff2"),
+  src:url("../fonts/roboto.woff2") format("woff2");
    url("../fonts/roboto.woff") format("woff");
   font-weight: 400;
   font-style: normal;
@@ -10,7 +9,7 @@
 
 @font-face {
     font-famaly:"robotobold";
-    src:url("../fonts/robotobold.woff2") format("woff2"),
+    src:url("../fonts/robotobold.woff2") format("woff2");
      url("../fonts/robotobold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
@@ -18,13 +17,13 @@
 
 @font-face {
     font-famaly:"robotomedium";
-    src:url("../fonts/robotomedium.woff2") format("woff2"),
+    src:url("../fonts/robotomedium.woff2") format("woff2");
      url("../fonts/robotomedium.woff") format("woff");
     font-weight: 500;
     font-style: normal;
   }
 
-  /*Variables*/
+  /*variables*/
   :root {
     --basic-black:#000000;
     --basic-black:#070707;
@@ -50,7 +49,7 @@
       height:auto;
     }
 
-    /*Main-navigation*/
+    /*main-navigation*/
     .main-navigation {
       font-family: Roboto;
       font-style: normal;
@@ -60,12 +59,12 @@
       color:#000000; 
     }
 
-    /*Main-navigation-wrapper*/
+    /*main-navigation-wrapper*/
     .main-navigation-wrappe {
       background-color: #d5d5d5;
     } 
 
-    /*User navigation */
+    /*user navigation */
     .site-navigation a,
     .user-navigation a {
       font-family: Roboto;
@@ -193,16 +192,16 @@
       border-radius: 3px;
     }
 
-    /*Services*/
-    .Services-list {
+    /*services*/
+    .services-list {
       list-style:none;
     }
 
-    .Services-list {
+    .services-list {
       text-align: center;
     }
     
-    .Services-list {
+    .services-list {
       background-image: url("../img/web.jpg");
       background:#ffffff;
     }
@@ -238,7 +237,7 @@
       border-radius: 3px;
     }
 
-    .Services-list {
+    .services-list {
       background-image: url("../img/application.jpg");
       background:#ffffff;
     }
@@ -272,7 +271,7 @@
       background:#00aa62;
     }
 
-    .Services-list {
+    .services-list {
       background-image: url("../img/presentation.jpg");
       background:#ffffff;
     }
@@ -307,7 +306,7 @@
       background:#e5a722;
     }
 
-    /*Description*/
+    /*description*/
     .description {
       list-style:none;
     }
@@ -336,7 +335,7 @@
       background:#ffffff;
     }
 
-    /*Development*/
+    /*development*/
     .development-list {
       list-style:none;
     }
@@ -420,64 +419,64 @@
       background:#ffffff;
     }
 
-    /*Partners*/
-    .Partners-list a {
+    /*partners*/
+    .partners-list a {
       list-style:none;
     }  
 
-    .Partners-list a {
+    .partners-list a {
       text-align: center;
     } 
 
-    .Partners-idem a:hover {
+    .partners-idem a:hover {
       color:#000000;
       background-color:#ffffff;
       background-image: url("../img/logohtml-academy.png");
     }
 
-    .Partners-idem a:focus {
+    .partners-idem a:focus {
       color:#d5d5d5;
       background-image: url("../img/logohtml-academy.png");
       background:#ffffff;
     }
 
-    .Partners-idem a:hover {
+    .partners-idem a:hover {
       color:#000000;
       background-color:#ffffff;
       background-image: url("../img/logoBarbershop-borodinski.png");
     }
 
-    .Partners-idem a:focus {
+    .partners-idem a:focus {
       color:#d5d5d5;
       background-image: url("../img/logoBarbershop-borodinski.png");
       background:#ffffff;
     }
 
-    .Partners-idem a:hover {
+    .partners-idem a:hover {
       color:#000000;
       background:#ffffff;
       background-image: url("../img/logoPink.png");
     }
 
-    .Partners-idem a:focus {
+    .partners-idem a:focus {
       color:#d5d5d5;
       background-image: url("../img/logoPink.png");
       background:#ffffff;
     } 
 
-    .Partners-idem a:hover {
+    .partners-idem a:hover {
       color:#000000;
       background:#ffffff;
       background-image: url("../img/logoMishka.png");
     }
 
-    .Partners-idem a:focus {
+    .partners-idem a:focus {
       color:#d5d5d5;
       background-image: url("../img/logoMishka.png");
       background:#ffffff;
     }
 
-    /*Main-footer*/
+    /*main-footer*/
     .rectangle {
       position: absolute;
       width: 319px;
@@ -520,21 +519,21 @@
       text-align:center;
     }
 
-    /*Map*/
+    /*map*/
     .map {
       background-image: url("../img/map-markerNerds.png");
     }
 
-    /*Footer-social*/
-    .Footer-socia-list {
+    /*footer-social*/
+    .footer-socia-list {
       list-style:none;
     }
 
-    .Footer-socia-list {
+    .footer-socia-list {
       text-align:center;
     }
 
-    .Footer-socia-idem {
+    .footer-socia-idem {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -543,7 +542,7 @@
       background-image: url("../img/vk-icon.ico");
     }
 
-    .Footer-socia-idem {
+    .footer-socia-idem {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -552,7 +551,7 @@
       background-image: url("../img/fb-icon.ico");
     }
 
-    .Footer-socia-idem {
+    .footer-socia-idem {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -562,7 +561,7 @@
     }
 
     
-    .Footer-socia-idem-hover {
+    .footer-socia-idem-hover {
       width:81px;
       height:81px;
       color:#ffffff;
@@ -571,7 +570,7 @@
       background-image: url("../img/vk-icon.ico");
     }
 
-    .Footer-socia-idem-hover{
+    .footer-socia-idem-hover{
       width:81px;
       height:81px;
       color: #ffffff;
@@ -580,7 +579,7 @@
       background-image: url("../img/fb-icon.ico");
     }
 
-    .Footersocia-idem-hover {
+    .footersocia-idem-hover {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -589,7 +588,7 @@
       background-image: url("../img/insta-icon.ico");
     }
 
-    .Footer-socia-idem-focus {
+    .footer-socia-idem-focus {
       width:81px;
       height:81px;
       color:#d5d5d5;
@@ -598,7 +597,7 @@
       background-image: url("../img/vk-icon.ico");
     }
 
-    .Footer-socia-idem-focus {
+    .footer-socia-idem-focus {
       width:81px;
       height:81px;
       color:#d5d5d5;
@@ -607,7 +606,7 @@
       background-image: url("../img/fb-icon.ico");
     }
 
-    .Footer-socia-idem-focus {
+    .footer-socia-idem-focus {
       width:81px;
       height:81px;
       color: #d5d5d5;
@@ -617,7 +616,7 @@
     }
 
 
-    /*Popur*/
+    /*popur*/
     .popur-list {
     text-align:center;
     }
@@ -637,8 +636,8 @@
       background: #ffffff;
     }
 
-    /*form input*/
-    .form input {
+    /*form-input*/
+    .form-input {
       font-family: Roboto;
       font-style: normal;
       font-weight: 700;
@@ -648,9 +647,9 @@
       background: #ffffff;
     }
 
-    .form input [type="your name"],
-    .form input [type="your email"],
-    .form input [type="text letter"] {
+    .form-input [type="your name"],
+    .form-input [type="your email"],
+    .form-input [type="text letter"] {
       font-family: Roboto;
       font-style: normal;
       font-weight: 500;
@@ -660,9 +659,9 @@
       background: #ffffff;
     }
    
-    .form input [type="name surname"],
-    .form input [type="email"],
-    .form input [type="text"]{
+    .form-input [type="name surname"],
+    .form-input [type="email"],
+    .form-input [type="text"]{
       font-family: Roboto;
       font-style: normal;
       font-weight: 400;
@@ -672,15 +671,15 @@
       color:#d5d5d5;
       background: #ffffff;
     }
-    .form input:hover {
+    .form-input:hover {
       border-color:#d5d5d5;
     }
 
-    .form input:focus {
+    .form-input:focus {
       border-color:#030303;
     }
 
-    .form input:invalid {
+    .form-input:invalid {
       border-color:#fb565a;
       color:#fb565a;
       background:#ffffff;
@@ -720,7 +719,7 @@
     }
 
 
-    /*Catalog*/
+    /*catalog*/
     .main-container {
       font-family: Roboto;
       font-style: normal;
@@ -1071,8 +1070,8 @@
       }
 
         
-      /*Modal*/
-      .Modal-Rectangle {
+      /*modal*/
+      .modal-rectangle {
         position: absolute;
         width: 360px;
         height: 231px;
@@ -1082,7 +1081,7 @@
         background:#ffffff;
       }
 
-      .Modal-Rectangle {
+      .modal-rectangle {
         font-family: Roboto;
         font-style: normal;
         font-weight:700;
@@ -1093,7 +1092,7 @@
         align-items: center;
       }
 
-      .Modal-Rectangle {
+      .modal-rectangle {
        font-family: Roboto;
        font-style: normal;
        font-weight: 400;
@@ -1104,12 +1103,12 @@
        background: #C4C4C4;
       }
 
-      .Modal-button {
+      .modal-button {
         border-radius: 3px;
         background: #d7373b;
       }
 
-      .Modal-button {
+      .modal-button {
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -1120,25 +1119,25 @@
         align-items: center;
       }
 
-      .Modal-button:hover {
+      .modal-button:hover {
         color:#DBDBDB;
         background:#e74246;
       }
 
-      .Modal-button:focus {
+      .modal-button:focus {
         color: #dfdfdf;
         background: #d7373b;
       }
 
-      /*Pages*/
-      .Pages {
+      /*pages*/
+      .pages {
         background: #FFFFFF;
         border: 3px solid #DBDBDB;
         box-sizing: border-box;
         border-radius: 3px;
       }
 
-      .Pages-1 {
+      .pages-1 {
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -1149,7 +1148,7 @@
         background:#ffffff;
       }
 
-      .Pages-2 {
+      .pages-2 {
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -1160,7 +1159,7 @@
         background:#C4C4C4;
       }
 
-      .Pages-3 {
+      .pages-3 {
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -1171,16 +1170,16 @@
         background:#C4C4C4;
       }
 
-      .Pages-1,
-      .Pages-2,
-      .Pages-3:hover {
+      .pages-1,
+      .pages-2,
+      .pages-3:hover {
         color:#000;
         background:#d5d5d5;
       }
 
-      .Pages-1,
-      .Pages-2,
-      .Pages-3:focus {
+      .pages-1,
+      .pages-2,
+      .pages-3:focus {
         color: #d5d5d5;
         background: #d5d5d5;
       }
@@ -1201,7 +1200,7 @@
           background: #C4C4C4;
         }
 
-          /*Main-footer*/
+          /*main-footer*/
     .rectangle {
       position: absolute;
       width: 319px;
@@ -1244,21 +1243,21 @@
       text-align:center;
     }
 
-    /*Map*/
+    /*map*/
     .map {
       background-image: url("../img/map-markerNerds.png");
     }
 
-    /*Footer-social*/
-    .Footer-socia-list {
+    /*footer-social*/
+    .footer-socia-list {
       list-style:none;
     }
 
-    .Footer-socia-list {
+    .footer-socia-list {
       text-align:center;
     }
 
-    .Footer-socia-idem {
+    .footer-socia-idem {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -1267,7 +1266,7 @@
       background-image: url("../img/vk-icon.ico");
     }
 
-    .Footer-socia-idem {
+    .footer-socia-idem {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -1276,7 +1275,7 @@
       background-image: url("../img/fb-icon.ico");
     }
 
-    .Footer-socia-idem {
+    .footer-socia-idem {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -1286,7 +1285,7 @@
     }
 
     
-    .Footer-socia-idem-hover {
+    .footer-socia-idem-hover {
       width:81px;
       height:81px;
       color:#ffffff;
@@ -1295,7 +1294,7 @@
       background-image: url("../img/vk-icon.ico");
     }
 
-    .Footer-socia-idem-hover{
+    .footer-socia-idem-hover{
       width:81px;
       height:81px;
       color: #ffffff;
@@ -1304,7 +1303,7 @@
       background-image: url("../img/fb-icon.ico");
     }
 
-    .Footersocia-idem-hover {
+    .footersocia-idem-hover {
       width:81px;
       height:81px;
       color: #ffffff;
@@ -1313,7 +1312,7 @@
       background-image: url("../img/insta-icon.ico");
     }
 
-    .Footer-socia-idem-focus {
+    .footer-socia-idem-focus {
       width:81px;
       height:81px;
       color:#d5d5d5;
@@ -1322,7 +1321,7 @@
       background-image: url("../img/vk-icon.ico");
     }
 
-    .Footer-socia-idem-focus {
+    .footer-socia-idem-focus {
       width:81px;
       height:81px;
       color:#d5d5d5;
@@ -1331,7 +1330,7 @@
       background-image: url("../img/fb-icon.ico");
     }
 
-    .Footer-socia-idem-focus {
+    .footer-socia-idem-focus {
       width:81px;
       height:81px;
       color: #d5d5d5;
