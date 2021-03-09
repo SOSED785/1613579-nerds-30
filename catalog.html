@@ -1,48 +1,61 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap ">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/icons/:cons.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/icons/180.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
-<body>
-  <header>
-    <nav>
+<body class="page-body">
+  <header class="main-header">
+    <nav class="main-navigation">
       <a href="index.html">
        <img src="img/logo.png" width="160" height="65" alt="Логотип интернет магазина Nerds"> 
        </a>
-      <a href="blank.html">Студия</a>
-      <a href="blank.html">Клиент</a>
-      <a href="catalog.html">Магазин</a>
-      <a href="blank.html">Контакты</a>
-      <a href="blank.html">
-       <img src="img/basket-icon.svg" width="15" height="15" alt="Корзина"></a>
+       <div class="main-navigation-wrapper">
+        <div class="container">
+         <div class="site-navigation">
+          <a href="blank.html">Студия</a>
+          <a href="blank.html">Клиент</a>
+          <a href="catalog.html">Магазин</a>
+          <a href="blank.html">Контакты</a>
+         </div>
+         <div class="user-navigation">
+          <a class="blank.html" href="blank.html">
+           <img src="img/cart-icon.ico" width="15" height="15" alt=""></a><p>Корзина</p>
+         </div>
+        </div>
+       </div>
     </nav>
   </header>
-  <main>
-    <h1>Магазин готовых шаблонов</h1>
-    <form action="http://echo.htmlacademy.ru" method="get">
+ <main class="catalog">
+ <div class="page-catalog-container">
+  <div class="filters">
+    <h1 class="Магазин готовых шаблонов"></h1>
+    <form class="parameters" action="phttp://echo.htmlacademy.ru" method="get">
       <fieldset>
         <legend>Стоимость</legend>
-          <label>От<input type="text" value="0"> </label>
-          <label>до<input type="text" value="15000"> </label>
+          <label>От<input class="input type" type="text" value="0"> </label>
+          <label>до<input class="input type" type="text" value="15000"> </label>
       </fieldset>
       <fieldset>
         <legend>Сетка</legend>
         <ul>
-          <li>
-            <label><input type="radio" name="Адаптивная"
+          <li class="description">
+            <label><input class="input type" type="radio" name="Адаптивная"
               checked value="Адаптивная">Адаптивная</label>
           </li>
-          <li>
-            <label><input type="radio" name="Фиксированная"
+          <li class="description">
+            <label><input class="input type" type="radio" name="Фиксированная"
               value="Фиксированная">Фиксированная</label>
           </li>
-          <li>
-            <label><input type="radio" name="Резиновая"
+          <li class="description">
+            <label><input class="input type" type="radio" name="Резиновая"
               value="Резиновая">Резиновая</label>
           </li>
         </ul> 
@@ -50,72 +63,74 @@
       <fieldset>
         <legend>Особенности</legend>
         <ul>
-          <li>
-            <label><input type="checkbox" name="Слайдер"
+          <li class="information">
+            <label><input class="input type" type="checkbox" name="Слайдер"
              checked value="Слайдер">Слайдер</label>
           </li>
-          <li>
-            <label><input type="checkbox" name="Блок преимуществ"
+          <li class="information">
+            <label><input class="input type" type="checkbox" name="Блок преимуществ"
             value="Блок преимуществ">Блок преимуществ</label>
           </li>
-          <li>
-            <label><input type="checkbox" name="Новости"
+          <li class="information">
+            <label><input class="input type" type="checkbox" name="Новости"
             checked value="Новости">Новости</label>
           </li>
-          <li>
-            <label><input type="checkbox" name="Галерея"
+          <li class="information">
+            <label><input class="input type" type="checkbox" name="Галерея"
             value="Галерея">Галерея</label>
           </li>
-          <li>
-            <label><input type="checkbox" name="Корзина"
+          <li class="information">
+            <label><input class="input type" type="checkbox" name="Корзина"
             value="Корзина">Корзина</label>
           </li>
         </ul>
       </fieldset>
-      <button type="submit">Показать</button>
+      <button type="submit" class="button-button">Показать</button>
     </form>
-  <section>
+   </div>
+  <section class="sections">
         <p>Сортировать</p>
         <a href="">по цене</a>
         <a href="">по типу</a>
         <a href="">по названию</a>
   </section>
-  <section>
+  <div class="catalog">
      <h2>Название сайтов</h2>
-       <ul>
-         <li>
+       <ul class="catalog-list">
+         <li class="catalog-item">
            <a href="#">
-           <img src="img/MaskGroupSedona.jpg" width="358" height="528" alt="Главная страница сайта"></a>
+            <img src="img/MaskGroupSedona.jpg" width="358" height="528" alt="Главная страница сайта"></a>
            <p>Информационный сайт для туристов</p>
-           <button type="button">9900руб</button>
+           <button class="button" type="button">9900руб</button>
          </li>
-         <li>
+         <li class="catalog-item">
            <a href="#">
             <img src="img/MaskGroupBarbershop-Borodinski.jpg" width="358" height="578" alt="Главная страница сайта"></a>
          </li>
-         <li>
+         <li class="catalog-item">
            <a href="#">
             <img src="img/MaskGroupPink.jpg" width="358" height="578" alt="Главная страница Pink"></a>
          </li>
-         <li>
+         <li class="catalog-item">
            <a href="#">
             <img src="img/MaskGroupMishka.jpg" width="358" height="578" alt="Главная страница Mishka"></a>
          </li>
-         <li>
+         <li class="catalog-item">
            <a href="#">
             <img src="img/MaskGroupA+.jpg" width="358" height="578" alt="Главная страница сайта"></a>
          </li>
-         <li>
+         <li class="catalog-item">
            <a href="#">
             <img src="img/MaskGroupKvast.jpg" width="358" height="578" alt="Крафтовый квас"></a>
          </li>
         </ul>
-         <a>1</a>
+  </div>
+ </div>
+         <a class="page">1</a>
            <a href="#">2</a>
            <a href="#">3</a>
            <a href="#">Следующая</a>
-   </section>
-  </main>
+</main>
   <footer>
     <h2>Как нас найти</h2>
     <p>NERDS DESIGN STUDIO </p>
@@ -125,13 +140,13 @@
     <a href="tel:+7(812)2757575">+7-812-275-75-75</a>
     <button type="button">Напишите нам</button>
     <h2>Давайте дружить это выгодно</h2>
-    <p>Скидка 10% для друзей из социальных сетей</p>
-    <a href="#">
-     <img src="img/vk-icon.svg" width="26" height="15" alt=""></a>
-    <a href="#">
-     <img src="img/fb-icon.svg" width="12" height="22" alt=""></a>
-    <a href="#">
-     <img src="img/insta-icon.svg" width="21" height="21" alt=""></a>
+    <a class="social-button" href="#">
+     <img src="img/vk-icon.ico" width="26" height="15" alt=""></a>
+    <a class="social-button" href="#"> 
+     <img src="img/fb-icon.ico" width="12" height="22" alt=""></a>
+    <a class="social-button" href="#"> 
+     <img src="img/insta-icon.ico" width="21" height="21" alt=""></a>
+     <p>Скидка 10% для друзей из социальных сетей</p>
   </footer>
 </body>
 </html>

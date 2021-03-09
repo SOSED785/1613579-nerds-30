@@ -3,38 +3,50 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap ">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css"> 
   <link rel="icon" href="favicon.ico">
   <link rel="icon" href="img/icons/:cons.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/icons/180.png">
   <link rel="manifest" href="manifest.webmanifest">
 </head>
-<body class="page-body">
+ <body class="page-body">
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo">
-        <img src="img/logo.png" width="160" height="65" alt="Логотип интернет магазина Nerds">
+       <img src="img/logo.png" width="160" height="65" alt="Логотип интернет магазина Nerds">
       </a>
-      <ul class="site-navigation">
-       <li><a href="blank.html">Студия</a></li>
-       <li><a href="blank.html">Клиент</a></ul>
-       <li><a href="catalog.html">Магазин</a></li>
-       <li><a href="blank.html">Контакты</a></li>
-      <a class="blank.html" href="blank.html">
-       <img src="img/basket-icon.svg" width="15" height="15" alt="Корзина">
-       </a>
+       <div class="main-header-bar">
+        <div class="main-navigation-wrapper">
+         <div class="container">
+          <div class="site-navigation">
+           <a href="blank.html">Студия</a>
+           <a href="blank.html">Клиент</a>
+           <a href="catalog.html">Магазин</a>
+           <a href="blank.html">Контакты</a>
+          </div>
+          <div class="user-navigation">
+           <a class="blank.html" href="blank.html">   
+            <img src="img/cart-icon.ico" width="15" height="15" alt=""></a><p>Корзина</p>
+          </div>
+         </div>
+        </div>
+       </div>  
     </nav>
   </header>
   <main class="conteiner">
+   <div class="conteiner-columns">
     <h1>Интернет магазин Nerds</h1>
      <ul class="information-list">
-       <li class="information-item">
-        <p>Долго,дорого,скурпулезно</p>
-        <p>Математически выверенный дизайн<br>
+      <li class="information-item">
+       <p>Долго,дорого,скурпулезно</p>
+       <p>Математически выверенный дизайн<br>
           для вашего сайта или мобильного приложения</p>
-        <a class="button" href="blank.html">узнать больше
-         <img src="img/slideTelephone.jpg" width="1157" height="431" alt="Работа через телефоны"></a>
-       </li>
-       <li class="information-item">
+       <a class="button" href="blank.html">узнать больше
+        <img src="img/slideTelephone.jpg" width="1157" height="431" alt="Работа через телефоны"></a>
+      </li>
+      <li class="information-item">
         <p>Любим математику как никто другой</p>
         <p>Никакого креатива,только математические формулы для расчета идеальных пропорций</p>
         <a class="button" href="blank.html">узнать больше
@@ -75,17 +87,21 @@
         </li>
      </ul>
     </section>
+   </div>
+  <div class="index-columns">
+    <section class="development">
      <h2>О нас</h2>
      <p class="description">Мы-маленькая,но гордая дизайн студия из Краснодара</p>
      <p class="description">Исповедуем принципы минимолизма и чистоты.Ставим математический расчет<br>
       превыше креатива.Работаем не поклодая рук,как роботы.</p>
-     <h3>Выполняем заказы на разработку:</h3>
-     <div class="index-columns"></div> 
+     <h3>Выполняем заказы на разработку:</h3> 
       <ul class="development-list">
        <li class="development-item">Веб сайтов</li>
        <li class="development-item">Мобильных приложений</li>
        <li class="development-item">Слайтшоу и видео для корпоротивных презентаций</li>
       </ul>
+    </section>
+    <section class="indicators">
     <strong>Nerds</strong>
     <img src="img/nerds-illustration.jpg" width="360" height="208" alt="Интернет сайт Nerds">
     <p>с 2004 года любим точность во всем</p>
@@ -94,6 +110,8 @@
       <li class="indicators-item">100% соблюдение сроков</li>
       <li class="indicators-item">50% минимальная предоплата</li>
      </ul>
+     </section>
+  </div>
     <h2>Сайты партнеры</h2>
        <a class="partners" href="https://echo.htmlacademy.ru/">
         <img src="img/logohtml-academy.png" width="199" height="67" alt="HTMLAcademy"></a>
@@ -118,29 +136,29 @@
     <section class="footer-social">
      <h2>Давайте дружить это выгодно</h2>
       <a class="social-button" href="#"> 
-        <img src="img/vk-icon.svg" width="26" height="15" alt=""></a>
+        <img src="img/vk-icon.ico" width="26" height="15" alt=""></a>
       <a class="social-button" href="#"> 
-        <img src="img/fb-icon.svg" width="12" height="22" alt=""></a>
+        <img src="img/fb-icon.ico" width="12" height="22" alt=""></a>
       <a class="social-button" href="#"> 
-        <img src="img/insta-icon.svg" width="21" height="21" alt=""></a>
+        <img src="img/insta-icon.ico" width="21" height="21" alt=""></a>
      <p>Скидка 10% для друзей из социальных сетей</p>
     </section>
   </footer>
-  <section>
+   <section>
     <h2>Напишите нам</h2>
-    <fieldset>
+     <fieldset>
       <legend>Ваше имя</legend>
-      <label><input type="text" value="Имя Фамилия"></label>
-    </fieldset>
-    <fieldset>
+       <label><input type="text" value="Имя Фамилия"></label>
+     </fieldset>
+     <fieldset>
       <legend>Ваш email</legend>
-     <label><input type="text" value="email@example.com"></label> 
-    </fieldset>
-    <fieldset>
+       <label><input type="text" value="email@example.com"></label> 
+     </fieldset>
+     <fieldset>
       <legend>Текст письма</legend>
-      <label><input type="text" value="В свободной форме"></label>
-    </fieldset>
+       <label><input type="text" value="В свободной форме"></label>
+     </fieldset>
     <button type="button">Отправить</button>
-  </section>
-</body>
+   </section>
+ </body>
 </html>
